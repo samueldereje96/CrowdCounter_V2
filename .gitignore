@@ -1,0 +1,48 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+data/*.db
+
+# Model weights and large binaries
+models/*.pt
+*.pt
+*.h5
+*.ckpt
+yolov8n.pt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Coverage and test
+.coverage
+.pytest_cache/
